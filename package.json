@@ -19,7 +19,6 @@
     "copy-styles": "node ./copy-styles.js",
     "jest": "jest",
     "lint": "eslint sample/ src/ test/ --ext .jsx,.js",
-    "postinstall": "husky install",
     "prepack": "yarn clean && yarn build",
     "prettier": "prettier --check . --cache",
     "test": "yarn lint && yarn prettier && yarn jest"
@@ -82,7 +81,6 @@
     "@testing-library/react": "^12.1.0",
     "eslint": "^8.5.0",
     "eslint-config-wojtekmaj": "^0.6.5",
-    "husky": "^8.0.0",
     "jest": "^29.0.0",
     "jest-environment-jsdom": "^29.0.0",
     "less": "^4.0.0",
